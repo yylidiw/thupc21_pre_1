@@ -1,5 +1,6 @@
 args:
-  n: 1000
+  n: 300
+  m: 300
 compile:
   c: -O2 -std=c11
   cpp: -O2 -std=c++14
@@ -15,7 +16,7 @@ pre: []
 samples: []
 time limit: 1.0
 title:
-  zh-cn: 用于试题标题的中文名称
+  zh-cn: 棋盘
 type: program
 users: {}
 version: 2
