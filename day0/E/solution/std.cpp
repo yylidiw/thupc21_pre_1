@@ -11,7 +11,7 @@ int read(int L,int R){
 }
 
 int n,m,a[N];
-i64 s[450][N+333];
+i64 s[450][N+666];
 int main(){
 	n=read(1,maxn);
 	F1(i,n)a[i]=read(1,maxn);
