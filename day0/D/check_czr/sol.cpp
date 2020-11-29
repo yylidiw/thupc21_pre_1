@@ -141,7 +141,7 @@ if (s[a[r]]>mx) mx=s[a[r]];
 if (a[l]==i) cnt++;
 if (a[r]==i) cnt++;
 if (cnt==mx&&lst==-1) lst=len;
-if (cnt<mx&&lst!=-1) add(i,lst,len-1);
+if (cnt<mx&&lst!=-1) {add(i,lst,len-1);lst=-1;}
 }
 if (lst!=-1) add(i,lst,len-1);
 }
