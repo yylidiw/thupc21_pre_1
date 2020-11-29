@@ -10,7 +10,7 @@ using namespace std;
 //t1[c,k]:以c为中心, 众数出现次数为k的最小右端点 
 //t2[c,k]:以c为中心，众数出现次数为k的最大左端点 
 const int N=500005;
-const int T=400;
+const int T=300;
 map <int,int> mp;
 int a[N+5],t[N*2+5],s[N*2+5],n,m,cnt,tot=0;
 int t1[N+5],t2[N+5],num[N*2+5],w[N+5];
@@ -90,7 +90,7 @@ if (w[j]<=pl[i][j+1]-1) add(i,w[j],pl[i][j+1]-1);
 }
 int main (){
 	int i,j,k,mx=0;
-	scanf ("%d%d",&n,&m);
+	scanf ("%d%d",&n,&m);cnt=n;
 	for (i=1;i<=n;i++)
 	{scanf ("%d",&a[i]);
 	if (a[i]<1||a[i]>n)
@@ -127,6 +127,7 @@ int main (){
 	}
 	sol1();//对于出现次数大于T=sqrt(n)的
 	sol2();//对于出现次数不超过T=sqrt(n)的
+	/*
 	sort(p+1,p+tot+1,cmp);
 	while (m--)
 	{int l,r;
@@ -139,5 +140,6 @@ int main (){
 	}
 	printf ("%lld\n",ans);
 	}
+	*/
 	return 0;
 }
