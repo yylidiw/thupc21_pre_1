@@ -13,12 +13,13 @@ int main (){
 	for (i=1;i<=n;i++)
 	{memset(t,0,sizeof(t));
 	int mid=i,mx=1;
-	t[a[i]]++;p[i][i]++;
+	t[a[i]]++;
+	if (a[i]==i) p[i][i]++;
 	for (j=i+2;j<=n;j+=2)
 	{t[a[j]]++;t[a[j-1]]++;mid++;
 	if (t[a[j]]>mx) mx=t[a[j]];
 	if (t[a[j-1]]>mx) mx=t[a[j-1]];
-	if (t[a[mid]]==mx) p[i][j]++;
+	if (t[mid]==mx) p[i][j]++;
 	}
 	}
 	for (i=1;i<=n;i++)
