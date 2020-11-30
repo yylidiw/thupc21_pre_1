@@ -64,7 +64,7 @@ int main(){
 		li ans = 0;
 		for(j = 0;j < d;++j,++p1,p2 += d) ans += (p[d][p1 + d * (d - 1)] - (p1 > d ? p[d][p1 - d] : 0)) * (s[p2 + d - 1] - s[p2 - 1]);
 		//print(d);pc(' ');print(q1);pc(' ');print(q2);pc(' ');
-		print(ans);pc('\n');
+		print(ans % (1ll << 32));pc('\n');
 	}
 	//fwrite(bfu,1,bfuu - bfu,stdout);
 	//cerr<<clock();
