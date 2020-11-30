@@ -1,21 +1,123 @@
 args:
-  n: 1000
+  n: 1500
 compile:
   c: -O2 -std=c11
   cpp: -O2 -std=c++14
   java: ''
   pas: -O2
   py: ''
-data: []
+data:
+- cases:
+  - 1
+  score: 3
+- cases:
+  - 2
+  score: 3
+- cases:
+  - 3
+  score: 3
+- cases:
+  - 4
+  score: 3
+- cases:
+  - 5
+  score: 3
+- cases:
+  - 6
+  score: 3
+- cases:
+  - 7
+  score: 3
+- cases:
+  - 8
+  score: 3
+- cases:
+  - 9
+  score: 3
+- cases:
+  - 10
+  score: 3
+- cases:
+  - 11
+  score: 3
+- cases:
+  - 12
+  score: 3
+- cases:
+  - 13
+  score: 3
+- cases:
+  - 14
+  score: 3
+- cases:
+  - 15
+  score: 3
+- cases:
+  - 16
+  score: 3
+- cases:
+  - 17
+  score: 3
+- cases:
+  - 18
+  score: 3
+- cases:
+  - 19
+  score: 3
+- cases:
+  - 20
+  score: 3
+- cases:
+  - 21
+  score: 4
+- cases:
+  - 22
+  score: 4
+- cases:
+  - 23
+  score: 4
+- cases:
+  - 24
+  score: 4
+- cases:
+  - 25
+  score: 4
+- cases:
+  - 26
+  score: 4
+- cases:
+  - 27
+  score: 4
+- cases:
+  - 28
+  score: 4
+- cases:
+  - 29
+  score: 4
+- cases:
+  - 30
+  score: 4
 folder: problem
-memory limit: 512 MiB
+memory limit: 64 MiB
 name: D
 partial score: false
-pre: []
-samples: []
-time limit: 1.0
+time limit: 5
 title:
-  zh-cn: 用于试题标题的中文名称
+  zh-cn: lxl-71
 type: program
-users: {}
+users:
+   lxl:
+    std:
+      expected: == 100
+      path: solution/std.cpp
+   czr:
+    sol:
+      expected: == 100
+      path: check_czr/sol.cpp
+    bf:
+      expected: == 20
+      path: check_czr/bf.cpp
+    sol_tle:
+      expected: == 20
+      path: check_czr/sol_tle.cpp
 version: 2
