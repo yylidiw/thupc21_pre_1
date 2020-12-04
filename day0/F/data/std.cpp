@@ -89,11 +89,25 @@ int a[333];
 int mark[333];
 
 int sol[333][333];
+
+int dx[4]={1,0,-1,0};
+int dy[4]={0,1,0,-1};
 void out() {
 	rep(i,1,n+1) {
 		rep(j,1,m+1)printf("%d",sol[i][j]);
 		printf("\n");
 	}
+	rep(j,1,m+1) {
+		int su=0;
+		rep(i,1,n+1) {
+			if(sol[i][j]==1) {
+				su++;
+				rep(k,0,4)assert(sol[i+dx[k]][j+dy[k]]==0);
+			}
+		}
+		assert(su == a[j]);
+	}
+
 }
 
 void work1(int l,int r) {
@@ -139,8 +153,11 @@ int main()
 	int _time_jc=clock();
 #endif
 	gn(n);gn(m);
+	assert(n<=300 && n>=1);
+	assert(m<=300 && m>=1);
 	rep(j,1,m+1){
 		gn(a[j]);
+		assert(a[j]>=0 && a[j] <= n);
 		if(a[j]>(n+1)/2) {
 			printf("No\n");
 			return 0;
