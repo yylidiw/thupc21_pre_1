@@ -16,7 +16,7 @@
 
 之后 $m$ 行，每行两个数 $l$ $r$ 表示一次询问。
 
-其中 $1\le n\le 5\cdot 10^5，1\le m\le 10^6$，所有数值为整数。
+其中 $1\le n\le 5\cdot 10^5，1\le m\le 10^6$，$1\le l\le r\le n$，$1\le a_i\le n$，所有数值为整数。
 
 {{ s('output format') }}
 
