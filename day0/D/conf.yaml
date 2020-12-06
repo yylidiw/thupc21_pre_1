@@ -101,7 +101,7 @@ folder: problem
 memory limit: 64 MiB
 name: D
 partial score: false
-time limit: 5
+time limit: 10
 title:
   zh-cn: lxl-71
 type: program
@@ -114,8 +114,11 @@ users:
     sol:
       expected: == 100
       path: check_czr/sol.cpp
+    sqrtlog:
+      expected: == 50
+      path: check_czr/sqrtlog.cpp
     bf:
-      expected: == 20
+      expected: == 0
       path: check_czr/bf.cpp
     sol_tle:
       expected: == 20
