@@ -4,19 +4,27 @@ args:
 compile:
   c: -O2 -std=c11
   cpp: -O2 -std=c++14
-  java: ''
+  java: ""
   pas: -O2
-  py: ''
-data: []
+  py: ""
+data:
+  - cases:
+      [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+    score: 100
 folder: problem
 memory limit: 512 MiB
 name: F
 partial score: false
-pre: []
-samples: []
+samples:
+  - cases: [1, 2]
 time limit: 1.0
 title:
   zh-cn: 棋盘
 type: program
-users: {}
+users:
+  jcvb:
+    std: { expected: == 100, path: jcvb/std.cpp }
+  ta:
+    # dfs: { expected: == 0, path: ta/dfs.cpp }
+    std: { expected: == 100, path: ta/std.cpp }
 version: 2
