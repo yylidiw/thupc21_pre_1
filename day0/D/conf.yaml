@@ -9,99 +9,255 @@ compile:
 data:
 - cases:
   - 1
-  score: 3
+  score: 2
 - cases:
   - 2
-  score: 3
+  score: 2
 - cases:
   - 3
-  score: 3
+  score: 2
 - cases:
   - 4
-  score: 3
+  score: 2
 - cases:
   - 5
-  score: 3
+  score: 2
 - cases:
   - 6
-  score: 3
+  score: 2
 - cases:
   - 7
-  score: 3
+  score: 2
 - cases:
   - 8
-  score: 3
+  score: 2
 - cases:
   - 9
-  score: 3
+  score: 2
 - cases:
   - 10
-  score: 3
+  score: 2
 - cases:
   - 11
-  score: 3
+  score: 2
 - cases:
   - 12
-  score: 3
+  score: 2
 - cases:
   - 13
-  score: 3
+  score: 2
 - cases:
   - 14
-  score: 3
+  score: 2
 - cases:
   - 15
-  score: 3
+  score: 2
 - cases:
   - 16
-  score: 3
+  score: 2
 - cases:
   - 17
-  score: 3
+  score: 2
 - cases:
   - 18
-  score: 3
+  score: 2
 - cases:
   - 19
-  score: 3
+  score: 1
 - cases:
   - 20
-  score: 3
+  score: 1
 - cases:
   - 21
-  score: 4
+  score: 1
 - cases:
   - 22
-  score: 4
+  score: 1
 - cases:
   - 23
-  score: 4
+  score: 1
 - cases:
   - 24
-  score: 4
+  score: 1
 - cases:
   - 25
-  score: 4
+  score: 1
 - cases:
   - 26
-  score: 4
+  score: 1
 - cases:
   - 27
-  score: 4
+  score: 1
 - cases:
   - 28
-  score: 4
+  score: 1
 - cases:
   - 29
-  score: 4
+  score: 1
 - cases:
   - 30
-  score: 4
+  score: 1
+- cases:
+  - 31
+  score: 1
+- cases:
+  - 32
+  score: 1
+- cases:
+  - 33
+  score: 1
+- cases:
+  - 34
+  score: 1
+- cases:
+  - 35
+  score: 1
+- cases:
+  - 36
+  score: 1
+- cases:
+  - 37
+  score: 1
+- cases:
+  - 38
+  score: 1
+- cases:
+  - 39
+  score: 1
+- cases:
+  - 40
+  score: 1
+- cases:
+  - 41
+  score: 1
+- cases:
+  - 42
+  score: 1
+- cases:
+  - 43
+  score: 1
+- cases:
+  - 44
+  score: 1
+- cases:
+  - 45
+  score: 1
+- cases:
+  - 46
+  score: 1
+- cases:
+  - 47
+  score: 1
+- cases:
+  - 48
+  score: 1
+- cases:
+  - 49
+  score: 1
+- cases:
+  - 50
+  score: 1
+- cases:
+  - 51
+  score: 1
+- cases:
+  - 52
+  score: 1
+- cases:
+  - 53
+  score: 1
+- cases:
+  - 54
+  score: 1
+- cases:
+  - 55
+  score: 1
+- cases:
+  - 56
+  score: 1
+- cases:
+  - 57
+  score: 1
+- cases:
+  - 58
+  score: 1
+- cases:
+  - 59
+  score: 1
+- cases:
+  - 60
+  score: 1
+- cases:
+  - 61
+  score: 1
+- cases:
+  - 62
+  score: 1
+- cases:
+  - 63
+  score: 1
+- cases:
+  - 64
+  score: 1
+- cases:
+  - 65
+  score: 1
+- cases:
+  - 66
+  score: 1
+- cases:
+  - 67
+  score: 1
+- cases:
+  - 68
+  score: 1
+- cases:
+  - 69
+  score: 1
+- cases:
+  - 70
+  score: 1
+- cases:
+  - 71
+  score: 1
+- cases:
+  - 72
+  score: 1
+- cases:
+  - 73
+  score: 1
+- cases:
+  - 74
+  score: 1
+- cases:
+  - 75
+  score: 1
+- cases:
+  - 76
+  score: 1
+- cases:
+  - 77
+  score: 1
+- cases:
+  - 78
+  score: 1
+- cases:
+  - 79
+  score: 1
+- cases:
+  - 80
+  score: 1
+- cases:
+  - 81
+  score: 1
+- cases:
+  - 82
+  score: 1
 folder: problem
 memory limit: 64 MiB
 name: D
 partial score: false
-time limit: 10
+time limit: 4
 title:
   zh-cn: lxl-71
 type: program
@@ -115,7 +271,7 @@ users:
       expected: == 100
       path: check_czr/sol.cpp
     sqrtlog:
-      expected: == 50
+      expected: == 80
       path: check_czr/sqrtlog.cpp
     bf:
       expected: == 0
