@@ -103,7 +103,8 @@ int main(int argc, char **argv)
 		int n = inf.readInt(), m = inf.readInt();
 		vector<string> chessboard;
 		vector<int> count;
-		for (int j=0;j<m;j++) {
+		for (int j = 0; j < m; j++)
+		{
 			int x = inf.readInt();
 			count.push_back(x);
 		}
@@ -126,12 +127,13 @@ int main(int argc, char **argv)
 			for (int j = 0; j < m; ++j)
 				if (chessboard[i - 1][j] == '1' && chessboard[i][j] == '1')
 					ret(0, "There're two adjacent chesses.");
-		for (int j=0;j<m;j++) {
-			int c=0;
-			for (int i=0;i<n;i++) c += chessboard[i][j];
-			if (c!=count[j]) {
+		for (int j = 0; j < m; j++)
+		{
+			int c = 0;
+			for (int i = 0; i < n; i++)
+				c += chessboard[i][j] == '1';
+			if (c != count[j])
 				ret(0, "Incorrect count.");
-			}
 		}
 	}
 
