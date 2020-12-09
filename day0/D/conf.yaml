@@ -1,126 +1,32 @@
 args:
-  n: 1500
+  n: 500000
+  m: 1000000
 compile:
   c: -O2 -std=c11
   cpp: -O2 -std=c++14
-  java: ''
+  java: ""
   pas: -O2
-  py: ''
+  py: ""
 data:
-- cases:
-  - 1
-  score: 3
-- cases:
-  - 2
-  score: 3
-- cases:
-  - 3
-  score: 3
-- cases:
-  - 4
-  score: 3
-- cases:
-  - 5
-  score: 3
-- cases:
-  - 6
-  score: 3
-- cases:
-  - 7
-  score: 3
-- cases:
-  - 8
-  score: 3
-- cases:
-  - 9
-  score: 3
-- cases:
-  - 10
-  score: 3
-- cases:
-  - 11
-  score: 3
-- cases:
-  - 12
-  score: 3
-- cases:
-  - 13
-  score: 3
-- cases:
-  - 14
-  score: 3
-- cases:
-  - 15
-  score: 3
-- cases:
-  - 16
-  score: 3
-- cases:
-  - 17
-  score: 3
-- cases:
-  - 18
-  score: 3
-- cases:
-  - 19
-  score: 3
-- cases:
-  - 20
-  score: 3
-- cases:
-  - 21
-  score: 4
-- cases:
-  - 22
-  score: 4
-- cases:
-  - 23
-  score: 4
-- cases:
-  - 24
-  score: 4
-- cases:
-  - 25
-  score: 4
-- cases:
-  - 26
-  score: 4
-- cases:
-  - 27
-  score: 4
-- cases:
-  - 28
-  score: 4
-- cases:
-  - 29
-  score: 4
-- cases:
-  - 30
-  score: 4
+  - cases:
+      [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83]
+    score: 100
 folder: problem
-memory limit: 64 MiB
+memory limit: 512 MiB
 name: D
 partial score: false
-time limit: 10
+samples:
+  - cases: [1, 1]
+time limit: 5.0
 title:
-  zh-cn: lxl-71
+  zh-cn: 区间众数
 type: program
 users:
-   lxl:
-    std:
-      expected: == 100
-      path: solution/std.cpp
-   czr:
-    sol:
-      expected: == 100
-      path: check_czr/sol.cpp
-    sqrtlog:
-      expected: == 50
-      path: check_czr/sqrtlog.cpp
-    bf:
-      expected: == 0
-      path: check_czr/bf.cpp
-    sol_tle:
-      expected: == 20
-      path: check_czr/sol_tle.cpp
+  nzhtl1477:
+    std: { expected: == 100, path: solution/std.cpp }
+  czr:
+    std: { expected: == 100, path: check_czr/sol.cpp }
+    bf: { expected: == 100, path: check_czr/bf.cpp }
+    bf: { expected: == 100, path: check_czr/sol_tle.cpp }
+    half_bf: { expected: == 100, path: check_czr/sqrtlog.cpp }
 version: 2
