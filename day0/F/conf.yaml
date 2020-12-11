@@ -19,7 +19,7 @@ samples:
   - cases: [1, 2]
 time limit: 1.0
 title:
-  zh-cn: 棋盘
+  zh-cn: F. 棋盘
 type: program
 users:
   jcvb:

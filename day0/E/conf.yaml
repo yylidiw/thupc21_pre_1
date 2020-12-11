@@ -19,7 +19,7 @@ samples:
   - cases: [1, 1]
 time limit: 2.0
 title:
-  zh-cn: 区间矩阵乘法
+  zh-cn: E. 区间矩阵乘法
 type: program
 users:
   ccz181078:
